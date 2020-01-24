@@ -1,0 +1,10 @@
+version: "3.7"
+services:
+  Febriansyah-web-JENIUS:
+    image: jenius/contact-app:releases
+    build:
+      context: ./
+      dockerfile: dockerfile
+    ports:
+      - "9200:80"
+    restart: always

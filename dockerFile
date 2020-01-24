@@ -1,7 +1,4 @@
 FROM nginx
 
-WORKDIR /usr/share/nginx/html
-
-ADD ./build ./
-
-EXPOSE 80
+COPY default.conf /etc/nginx.conf.d/
+COPY build /usr/share/nginx/html/
