@@ -1,0 +1,155 @@
+.people {
+    background-color: whitesmoke;
+    height: 100vh;
+    flex-grow: 1;
+    overflow-y: auto;
+    z-index: 1;
+    position: fixed;
+    margin: 0;
+    right: 0;
+}
+.item-people {
+    z-index: 150;
+    transition: none 0s ease 0s;
+    height: 100px;
+    border-bottom: 2px solid white;
+    width: 35vw;
+    font-size: smaller;
+    padding: 1%;
+}
+@media (max-width:700px){
+  .item-people {
+    height: 90px;
+    border-bottom: 2px solid white;
+    width: 200px;
+    font-size: xx-small;
+    /* padding: 1%; */
+}
+}
+
+.image-people {  
+    border-radius: 20%;
+    width: 80px;
+    height: 80px;
+}
+
+@media (max-width:700px){
+  .image-people {
+    margin-left: -50px;
+    margin-top: -100px;
+    width: 40px; 
+    height: 40px;
+  }
+}
+
+.people-detail {
+    background-color: white;
+    padding: 7%;
+}
+
+@media (max-width:700px){
+  .people-detail {
+    padding: 0  ;
+    width: 50px; 
+    height: 350px;
+    font-size: smaller;
+
+  }
+}
+
+.people-card {
+    width: 85%;
+    position: relative;
+    max-width: 800px;
+    min-width: 200px;
+    max-height: 600px;
+    margin: auto;
+    background: #fff;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    padding: 10%;
+    border-radius: 2%;
+    transition: all .3s;
+    padding: 1%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    font-size: medium;
+}
+@media (max-width:700px){
+  .people-card {
+    padding: 10%;
+    width: 50px; 
+    height: 350px;
+    font-size: smaller;
+
+  }
+}
+
+@media (max-width:700px){
+  .detail-text {
+    /* margin-top: -15px; */
+    font-size:large;
+  } 
+}
+
+@media (max-width:700px){
+  .text {
+    /* margin-top: -10px; */
+    font-size:small;
+  }
+}
+
+
+.image-logo {
+    /* width: 300px;
+    height: 350px; */
+    margin-top: -20%;
+    border-radius: 10%;
+    /* width: 65%;
+    height: 300px; */
+    /* min-width: 100px; */
+    width: 275px;
+    height: 250px;
+}
+@media (max-width:900px){
+  .image-logo {
+    width: 150px; 
+    height: 150px;
+  }
+}
+@media (max-width:700px){
+  .image-logo {
+    width: 100px; 
+    height: 100px;
+  }
+}
+
+.detail-text {
+    font-family: 'Times New Roman', Times, serif, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* modal */
+.hidden {
+    display: none;
+  }
+  
+  form > .row {
+    margin-bottom: 20px;
+  }
+  
+  form > .row:last-child {
+    margin-bottom: 0;
+  }
+  
+  form input.invalid {
+    border-color: #dc3545;
+  }
+  
+  form .invalid-feedback {
+    color: #dc3545;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 4px;
+    text-align: left;
+  }
+/* modal */
+  
