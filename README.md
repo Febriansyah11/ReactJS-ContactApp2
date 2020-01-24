@@ -1,7 +1,8 @@
 Contcact-App
 
-In the project directory, you must run:
-### `npm install`
+If you want to run this project, you must run:
+### `npm install` 
+
 And, you can run:
 ### `npm start`
 
