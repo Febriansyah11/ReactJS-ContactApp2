@@ -21,8 +21,7 @@ class DetailPeople extends Component {
             className="col-12 p-3 text-center"
             data-toggle="tooltip"
             data-placement="right"
-            title="Click people to see detail"
-          >
+            title="Click people to see detail">
             <button type="button" class="btn">
               Click people to see detail &nbsp;
               <i class="fa fa-arrow-circle-right text-primary fa-lg"></i>
@@ -52,17 +51,17 @@ class DetailPeople extends Component {
                       className="btn"
                       onClick={() => this.handleDelete(editContact.id)}
                     >
-                      <i className="fa fa-trash text-danger fa-lg"></i>
+                      <i className="fa fa-trash text-danger fa-lg icons">Delete</i>
                     </button>
                   </div>
-                  <div className="text-left col-6 btn">
+                  <div className="text-left col-6 btn ">
                     <button
                       type="button"
                       className="btn"
                       data-toggle="modal"
                       data-target="#update"
                     >
-                      <i className="fa fa-edit text-warning fa-lg"></i>
+                      <i className="fa fa-edit text-warning fa-lg icons">Edit</i>
                     </button>
                     <EditPeople />
                   </div>
