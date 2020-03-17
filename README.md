@@ -1,6 +1,4 @@
 Contcact-App
-If you want to build this project, you must run:
-### `npm run build`
 
 If you want to run this project, you must run:
 ### `npm install` 
